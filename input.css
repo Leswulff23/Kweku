@@ -53,3 +53,11 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+
+@media screen and (min-width: 1440px) {
+  #hero-bx{
+    height: 26rem;
+  }
+} 
+
