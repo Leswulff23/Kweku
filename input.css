@@ -61,3 +61,25 @@
   }
 } 
 
+.diamond-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+    border: 2px solid #b91c1c;
+    border-radius: 50%;
+    border-style: dashed;
+}
+
+/*Diamond animation*/
+.diamond-container::before{
+  animation: roll 2s linear infinite;
+}
+
+@keyframes roll{
+  to{
+    transform: rotate(360deg);
+  }
+}
