@@ -791,14 +791,9 @@ video {
   padding-bottom: 7rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -911,9 +906,8 @@ video {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 2px solid #b91c1c;
+  border: 1px dashed #b91c1c;
   border-radius: 50%;
-  border-style: dashed;
 }
 
 /*Diamond animation*/
