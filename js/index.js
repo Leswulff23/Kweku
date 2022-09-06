@@ -8,7 +8,3 @@ btn.addEventListener('click', () => {
 })
 
 
-// luxy.init({
-// 	wrapper: '#luxy',
-// 	wrapperSpeed:  0.095
-// });

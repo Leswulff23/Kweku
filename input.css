@@ -68,7 +68,7 @@
     left: 0;
     right: 0;
     bottom: 0;  
-    border: 1px dashed #b91c1c;
+    border: 1.8px dashed #b91c1c;
     border-radius: 50%;
 }
 
@@ -82,3 +82,27 @@
     transform: rotate(360deg);
   }
 }
+
+/*Primary Button*/
+.btn-primary::before{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #b91c1c;
+  border-radius: 3px;
+  transition: all ease 0.8s;
+  z-index: -1;
+}
+
+.btn-primary:hover::before{
+  width: 100%;
+}
+
+.btn-primary:hover{
+  color: #f3f4f6;
+  border: 2px solid #b91c1c;
+}
+
