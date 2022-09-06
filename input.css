@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hamburger Menu */
+.text-accent{
+  color: #B13B49;
+}
 
+.bg-accent{
+  background: #B13B49;
+}
+
+.border-accent{
+  border: 1px solid #B13B49;
+}
+
+/* Hamburger Menu */
 .hamburger {
   cursor: pointer;
   width: 38px;
@@ -91,7 +102,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #b91c1c;
+  background: #B13B49;
   border-radius: 3px;
   transition: all ease 0.8s;
   z-index: -1;
@@ -103,6 +114,15 @@
 
 .btn-primary:hover{
   color: #f3f4f6;
-  border: 2px solid #b91c1c;
+  border: 2px solid #B13B49;
 }
 
+.ext-link::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 4rem;
+  height: 5px;
+  background: #9CA3AF;
+}
