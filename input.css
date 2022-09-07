@@ -121,8 +121,8 @@
   content: '';
   position: absolute;
   top: 0;
-  left: 3%;
+  left: -20%;
   width: 4rem;
-  height: 5px;
+  height: 3px;
   background: #9CA3AF;
 }
