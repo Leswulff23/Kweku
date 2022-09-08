@@ -551,6 +551,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -655,6 +659,10 @@ video {
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mt-96 {
+  margin-top: 24rem;
 }
 
 .block {
