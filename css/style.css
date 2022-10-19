@@ -551,10 +551,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -612,10 +608,6 @@ video {
   right: 0px;
 }
 
-.top-32 {
-  top: 8rem;
-}
-
 .z-40 {
   z-index: 40;
 }
@@ -658,16 +650,16 @@ video {
   margin-right: 0.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .block {
@@ -722,14 +714,6 @@ video {
 
 .h-1 {
   height: 0.25rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .min-h-full {
@@ -955,14 +939,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-2 {
@@ -1045,6 +1029,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .text-gray-800 {
@@ -1202,6 +1191,18 @@ video {
   width: 4rem;
   height: 3px;
   background: #9CA3AF;
+}
+
+/* white bg research project*/
+
+.rs-white-h{
+  height: 870px;
+}
+
+@media screen and (min-width: 1440px) {
+  .rs-white-h{
+    height: 1056px;
+  }
 }
 
 .hover\:-skew-y-2:hover {
@@ -1409,4 +1410,4 @@ video {
     margin-right: calc(1.75rem * var(--tw-space-x-reverse));
     margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
-}
+} 

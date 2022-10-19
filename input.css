@@ -126,3 +126,15 @@
   height: 3px;
   background: #9CA3AF;
 }
+
+/* white bg research project*/
+.rs-white-h{
+  height: 870px;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .rs-white-h{
+    height: 1056px;
+  }
+} 
